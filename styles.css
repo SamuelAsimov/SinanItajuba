@@ -1,0 +1,83 @@
+import streamlit as st
+
+body {
+    background-color: lightgoldenrodyellow;
+  }
+
+
+  div[data-testid="stApp"] > div:first-of-type {
+    background: radial-gradient(closest-corner, #FFFFFF, #cff1ff );
+    padding-top: 3%;
+    
+    border-radius: 10px;
+    
+
+  }
+
+  #MainMenu {
+    visibility: hidden;
+  }
+
+  .stHeader{
+    visibility: hidden;
+  }
+
+  div[class="st-emotion-cache-fiqvbw e1f1d6gn3"] > div:first-of-type {
+    background: radial-gradient(closest-corner, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8));
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    border-radius: 10px;
+    
+
+  }
+
+
+  div[data-testid="stArrowVegaLiteChart"] > div:first-of-type {
+    background: radial-gradient(closest-corner, rgba(255, 255, 255, 1), rgba(184, 176, 176, 0.2));
+    padding-top: 3%;
+    
+    border-radius: 10px;
+    
+
+  }
+
+  div[class="stPlotlyChart js-plotly-plot"] > div:first-of-type {
+    background: radial-gradient(closest-corner, #FFFFFF, #cff1ff );
+    padding-top: 3%;
+    
+    border-radius: 10px;
+    
+
+  }
+
+.stNotification{
+  display: None;
+}
+
+.st-emotion-cache-uc1cuc.ezrtsby2{
+    background: rgba(255, 255, 255, 0);
+  }
+
+
+
+.st-emotion-cache-12w0qpk.e1f1d6gn3 {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid #CCCCCC;
+  padding: 1% 1% 1% 1%;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 50px; /* Ajuste o valor conforme necessário para aumentar a fonte */
+  font-weight: bold; /* Adiciona negrito ao texto */
+}
+
+.st-emotion-cache-12w0qpk.e1f1d6gn3 label {
+  display: block;
+  text-align: center;
+  font-size: 1.2em; /* Ajuste o valor conforme necessário para aumentar a fonte */
+  font-weight: bold; /* Adiciona negrito ao texto */
+}
+
+
+
